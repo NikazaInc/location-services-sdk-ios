@@ -29,7 +29,7 @@ The Nikaza Places database has millions of pre-defined locations that are catego
 
 Each location has a category, sub-category and location name. Example: Arts & Entertainment, Movie Theatre, Acme Cinema.
 
-Learn more about [Places](/ios/doc/Places.md).
+Learn more about [Places](doc/Places.md).
 
 #### Geofences
 
@@ -37,19 +37,19 @@ A geofence is used to specify a custom geographical location, such as a coffee s
 
 With support for unlimited geofences, the Nikaza Location Services Framework is more powerful than the native iOS geofencing.
 
-Learn more about [Geofences](/ios/doc/Geofences.md).
+Learn more about [Geofences](doc/Geofences.md).
 
 #### Beacons
 
 The Nikaza Location Services Framework scans for beacons (iBeacon and Eddystone). Beacons provide higher accuracy than geofences and can be used to identify custom geographical location, such as a coffee shop, an auto dealership or a retail outlet and specific zones such as entrance or cash counter within the geographical location.
  
-Learn more about [Beacons](/ios/doc/Beacons.md).
+Learn more about [Beacons](doc/Beacons.md).
  
 #### Location Context
 
 Nikaza Context Hub backend has a collection of location and context information associated with these locations. The server call to retrieve location context and associated location metadata will be triggered when the a Geofence, Beacon or WiFi event occurs. Developers can subscribe to context metadata via callbacks.
 
-Learn more about [Location Context](/ios/doc/Location_Context.md).
+Learn more about [Location Context](doc/Location_Context.md).
 
 ### Developer Tools
 
@@ -59,13 +59,13 @@ You can integrate Nikaza Location Services Framework with your apps using our de
 
 Integrate Nikaza Location Services Framework into your iOS app to start tracking users and generating events. You can use the Nikaza Location Services Framework, add location context and tracking to your apps with just a few lines of code.
 
-Learn more about the [SDK](/ios/doc/SDK.md).
+Learn more about the [SDK](doc/SDK.md).
 
 ### Examples
 
 You can use Nikaza Location Services Framework to power location context and tracking for any use case.
 
-For example, to do something if a user is at a Starbucks Coffee Shop, using [Tags](/ios/doc/Tags.md)
+For example, to do something if a user is at a Starbucks Coffee Shop, using [Tags](doc/Tags.md)
 
  ```objectivec
  NSArray *tags = [[NSArray alloc] initWithObjects:@"Starbucks", nil];
