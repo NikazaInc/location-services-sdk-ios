@@ -87,7 +87,7 @@ To build a project using the Nikaza Location Services Framework for iOS, you nee
 
 #### Download the framework
 
-Nikaza Location Services Framework can be downloaded from [here.](https://github.com/NikazaInc/location-services-sdk/raw/master/ios/framework.zip)
+Nikaza Location Services Framework can be downloaded from [here.](https://github.com/NikazaInc/location-services-sdk-ios/tree/master/framework.zip)
 
 #### Integrate the framework
 
