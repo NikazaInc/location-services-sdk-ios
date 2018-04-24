@@ -161,7 +161,7 @@ Learn more about [Places tags](Places.md).
 Take these optional steps to add or modify the Nikaza Location Services Framework settings.
 
 Modify the default configuration values such as power saving mode, eddystone search, lost timeout and rssi range to control the frequency of Nikaza API calls. This is optional.
-Example: If RSSI range is set to 20 then Nikaza API calls are trigerred only if the RSSI changes by at least 20dBm once a beacon is found. Lost timeout defines the amount of time to wait (after a beacon is lost) before trigerring an exit event to Nikaza backend. Change `POWER_SAVING_MODE = YES` to avoid the GPS polling and use only region monitoring. Note that, region monitoring is significantly less accurate.
+Example: If RSSI range is set to 20 then Nikaza API calls are trigerred only if the RSSI changes by at least 20dBm once a beacon is found. Lost timeout defines the amount of time (in seconds) to wait (after a beacon is lost) before trigerring an exit event to Nikaza backend. Change `POWER_SAVING_MODE = YES` to avoid the GPS polling and use only region monitoring. Note that, region monitoring is significantly less accurate.
 
  ```objectivec
 _locationServicesScanner.powerSavingMode               = NO;
